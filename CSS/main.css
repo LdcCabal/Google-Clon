@@ -1,0 +1,174 @@
+body{
+    background-color: #152238;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*.elemento para indicar clases, #elemento para indicar id*/
+main{
+    margin-top: 100px;
+    text-align: center;
+
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img{
+    width: 400px; /*270PX WIDTH 92PX HEIGHT*/
+    height: 160px;
+
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    background-color: #152238;
+    width: 450px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 white;
+    border-color: white;
+
+}
+
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png'); /* https://spng.pngfind.com/pngs/s/54-545056_icon-search-white-png-johns-hopkins-logo-white.png */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+nav .nav-right-sec img{
+    border-radius: 100%;
+    width: 32px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    height: 55px;
+    color: whitesmoke;
+}
+header nav{
+    display: flex; 
+    /*Puede ser flexible para alterar sus dimensiones*/
+    justify-content: flex-end;
+}
+
+header nav .nav-right-sec {
+    width: 200px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-sec li{ /*Elemento, clase, elemento*/
+    margin-right: 12px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+nav .nav-right-sec .menu-icon{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/014/441/364/small/grid-three-up-icon-3d-design-for-application-and-website-presentation-png.png'); /*Aqui estaba el otro link tambien*/ /*Este es el icono mas parecido que encontré*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #1c2e4a;
+    border: 0;
+    font-size: 14px;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover{
+    border: 1px solid #203354;
+    box-shadow: 0 1px 1px #565665; /*#565665*/
+    color: whitesmoke;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #1c2e4a;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #D3D3D3;
+}
+
+
